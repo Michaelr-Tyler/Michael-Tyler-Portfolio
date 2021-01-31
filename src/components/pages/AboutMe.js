@@ -1,17 +1,24 @@
 import React from 'react';
-import { Contacts } from './Contacts';
+import { Spring } from 'react-spring/renderprops';
+import { ContentCard } from '../utils/ContentCard';
+
 
 
 export const AboutMe = () => {
-  return (
-  <div>
-    <div>
-      About Me
-    </div>
-    <div>
-      Resume
-    </div>
-    <Contacts />
-  </div>
-  )
+
+  const renderAboutMe = () => {
+    return (
+      <Spring
+        from={{opacity:0}}
+        to={{opacity:1}}
+        config={{duration:1500}}>
+        {props => (
+          <div style={props}>
+            <ContentCard title={'About Me'} />
+          </div>
+        )}
+      </Spring>
+      )
+  }
+  return renderAboutMe()
 }

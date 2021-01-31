@@ -1,0 +1,16 @@
+.content-card{
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+  background:white;
+  height: 500px;
+  border-radius: 6px;
+  margin-top: 75px;
+}
+
+.content-title {
+  font-size: 50px;
+  margin:0 auto;
+  padding: 0;
+  padding-top: 20px;
+}
