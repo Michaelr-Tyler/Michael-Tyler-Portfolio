@@ -1,8 +1,16 @@
 *{
+  font-family: sans-serif;
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
   padding: 0;
+  height:100vh;
+  width:100vw;
+  background-image: url("./images/me/grey.jpeg");
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size:cover;
 }
+

@@ -2,8 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-image: linear-gradient(to right,#5C6F68, #414E49);
+  background-image: linear-gradient(to right,#071013, #1C1F22);
   color: white;
+  border-radius: 5px;
 }
 
 .nav-title {
@@ -18,7 +19,7 @@
 }
 
 .nav-title:hover {
-  background-color: #8AA39B;
+  background-color: #C7D6D5;
   border-radius: .5rem;
 }
 
@@ -40,7 +41,7 @@
 }
 
 .navbar-links li:hover {
-  background-color: #8AA39B;
+  background-color: #C7D6D5;
   border-radius: .5rem;
 }
 

@@ -20,13 +20,18 @@ export const NavBar = () => {
     <div className={sideBar ? "navbar-links active" : "navbar-links"}>
       <ul onClick={showSideBar} className="navBar__list">
         <li className="navBar__item">
-          <Link to='/experience'>
-            Experience
+          <Link to='/aboutme'>
+            About Me
           </Link>
         </li>
         <li className="navBar__item">
           <Link to='/projects'>
             Projects
+          </Link>
+        </li>
+        <li className="navBar__item">
+          <Link to='/experience'>
+            Experience
           </Link>
         </li>
         <li className="navBar__item">
