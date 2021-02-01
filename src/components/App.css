@@ -1,4 +1,31 @@
+.button {
+  -moz-transition: background-color .25s ease-in-out;
+  -webkit-transition: background-color .25s ease-in-out;
+  -ms-transition: background-color .25s ease-in-out;
+  transition: background-color .25s ease-in-out;
+  -webkit-appearance: none;
+  display: inline-block;
+  background-color: #222222;
+  color: #ffffff;
+  border: 0;
+  cursor: pointer;
+  outline: 0;
+  padding: 0.7em 1.5em 0.7em 1.5em;
+  text-decoration: none;
+}
+
 .container{
-  max-width: 1000px;
   margin: 0 auto;
+}
+@media only screen and (min-width: 1000px) {
+  .container{
+    max-width: 70%;
+  }
+
+}
+
+@media only screen and (max-width: 1000px) {
+  .container{
+    max-width: 90%;
+  }
 }
