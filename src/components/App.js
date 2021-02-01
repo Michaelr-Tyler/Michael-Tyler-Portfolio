@@ -4,10 +4,11 @@ import { AboutMe } from './pages/AboutMe';
 import { Contacts } from './pages/Contacts';
 import { Experience } from './pages/Experience';
 import { Intro } from './pages/Intro';
-import { Projects } from './pages/Projects';
-import { Blog } from './pages/Blog';
+import { Projects } from '../components/projects/Projects';
+import { Blog } from '../components/blog/Blog';
 import { Technologies } from './pages/Technologies';
 import './App.css'
+
 
 export const App = () => {
   return (

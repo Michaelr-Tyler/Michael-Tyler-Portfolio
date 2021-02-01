@@ -7,7 +7,11 @@ export const NavBar = () => {
   const showSideBar = () => setSideBar(!sideBar)
   return (
   <nav className="navbar">
-    <div className="nav-title">
+    <div className="nav-title" onClick={()=> {
+      if(sideBar){
+        setSideBar()
+      } 
+    }}>
         <Link to='/'>
           Michael Tyler
         </Link>
