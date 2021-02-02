@@ -1,158 +1,107 @@
+.content-card{
+  display: flex;
+  padding: 0;
+  height: 100%;
+  background:#EFF1ED;
+  border-radius: 3px;
+  margin-top: 50px;
+  box-shadow: black -6px 3px 25px 0px;
+}
+
+.content-title {
+  margin: 0;
+  margin-left: 3rem;
+}
+
+.content-context {
+  margin: 0rem 3rem 2rem 3rem;
+}
+
+.content-context p {
+  color:#777777;
+  line-height: 1.75em;
+}
+
 @media only screen and (min-width: 1000px) {
   .content-card {
-    display: flex;
     flex-direction: column;
-    padding: 0;
-    background:white;
-    height: 100%;
-    border-radius: 3px;
-    margin-top: 50px;
   }
   
   .content-title {
     font-size: 30pt;
     font-weight: 400;
-    margin: 0;
-    margin-left: 3rem;
-    padding: 0;
     padding-top: 20px;
-  }
-  
-  .content-context {
-    margin: 0rem 3rem 2rem 3rem;
   }
   
   .content-context p {
     font-size: 20pt;
     font-weight: 300;
-    color:#777777;
-    line-height: 1.75em;
   }
 
 }
 
 @media only screen and (max-width: 1000px) {
   .content-card{
-    display: flex;
     flex-direction: column;
-    padding: 0;
-    background:white;
-    height: 100%;
-    border-radius: 3px;
-    margin-top: 50px;
   }
   .content-title {
     font-size: 20pt;
     font-weight: 300;
-    margin: 0;
-    margin-left: 3rem;
-    padding: 0;
     padding-top: 20px;
-  }
-  
-  .content-context{
-    margin: 0rem 3rem 2rem 3rem;
   }
   
   .content-context p {
     font-size: 15pt;
     font-weight: 250;
-    color:#777777;
-    line-height: 1.75em;
   }
 }
 
 @media only screen and (max-width: 650px) {
   .content-card{
-    display: flex;
     flex-direction: column;
-    padding: 0;
-    background:white;
-    height: 100%;
-    border-radius: 3px;
-    margin-top: 50px;
   }
   .content-title {
     font-size: 20pt;
     font-weight: 200;
-    margin: 0;
-    margin-left: 3rem;
-    padding: 0;
     padding-top: 20px;
-  }
-  
-  .content-context{
-    margin: 0rem 3rem 2rem 3rem;
   }
   
   .content-context p {
     font-size: 13pt;
     font-weight: 150;
-    color:#777777;
-    line-height: 1.75em;
   }
 }
 
 @media only screen and (max-width: 525px) {
 
   .content-card{
-    display: flex;
     flex-direction: column;
-    padding: 0;
-    background:white;
-    height: 100%;
-    border-radius: 3px;
-    margin-top: 50px;
   }
   .content-title {
     font-size: 16pt;
     font-weight: 200;
-    margin: 0;
-    margin-left: 3rem;
-    padding: 0;
     padding-top: 20px;
-  }
-  
-  .content-context{
-    margin: 0rem 3rem 2rem 3rem;
   }
   
   .content-context p {
     font-size: 12pt;
     font-weight: 100;
-    color:#777777;
-    line-height: 1.75em;
   }
 }
 
 @media only screen and (max-width: 450px) {
   .content-card{
-    display: flex;
     flex-direction: column;
-    padding: 0;
-    background:white;
-    height: 100%;
-    border-radius: 3px;
-    margin-top: 50px;
   }
   .content-title {
     font-size: 18pt;
     font-weight: 200;
-    margin: 0;
-    margin-left: 3rem;
-    padding: 0;
     padding-top: 20px;
-  }
-  
-  .content-context{
-    margin: 0rem 3rem 2rem 3rem;
   }
   
   .content-context p {
     font-size: 11pt;
     font-weight: 100;
-    color:#777777;
-    line-height: 1.75em;
   }
 }
 

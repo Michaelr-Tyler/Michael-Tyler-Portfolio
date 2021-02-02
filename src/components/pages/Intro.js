@@ -18,7 +18,9 @@ export const Intro = () => {
               <div className="intro-heading">
                 <h1 className="intro-title">Michael Tyler</h1>
                 <h3 className="intro-subtitle">Software Developer</h3>
-                <ResumeButton />
+                <div className="resume-btn">
+                  <ResumeButton />
+                </div>
               </div>
               <div className="intro-image">
                 <img src={meMain} />

@@ -10,9 +10,9 @@ export const AboutMe = () => {
   const renderAboutMe = () => {
     return (
       <Spring
-        from={{opacity:0}}
-        to={{opacity:1}}
-        config={{duration:1500}}>
+      from={{ marginLeft: 2000}}
+      to={{ marginLeft:0}}
+      config={{tension: 25, friction:8}}>
         {props => (
           <div style={props}>
             <div className="content-card">
