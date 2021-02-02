@@ -1,16 +1,52 @@
+.intro-card {
+  display: flex;
+  background:#EEEEEE;
+  border-radius: 3px;
+  /* border: 3px solid orange; */
+  box-shadow:  #222222 -6px -3px 25px 0px;
+
+}
+
+.intro-heading {
+  /* border: 3px solid blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.intro-title{
+  /* border: 3px solid red; */
+  text-shadow: 3px 3px 10px #666;
+}
+
+.intro-subtitle{
+  /* border: 3px solid yellow; */
+  text-shadow: 4px 4px 10px #AAAAAA;
+}
+
+.intro-image img {
+    box-shadow: black -1px -1px 20px;
+    /* border: 3px solid grey; */
+}
+
+.resume-btn {
+  display: flex;
+  justify-content: center;
+}
+
 @media only screen and (min-width: 1000px){
 
   .intro-card{
-    display: flex;
-    padding: 0;
     justify-content: space-between;
-    background:white;
     height: 600px;
-    border-radius: 3px;
   }
   
   .intro-heading {
-    margin: auto 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 2rem;
   }
   
   .intro-title {
@@ -20,7 +56,6 @@
     color:#000;
     margin: 0;
     padding: 0;
-    
   }
   
   .intro-subtitle {
@@ -41,16 +76,17 @@
 @media only screen and (max-width: 1000px){
 
   .intro-card{
-    display: flex;
     padding: 0;
     justify-content: space-between;
-    background:white;
     height: 500px;
-    border-radius: 3px;
   }
   
   .intro-heading {
-    margin: auto 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0 2rem;
+
   }
   
   .intro-title {
@@ -75,28 +111,29 @@
     height: 500px;
     border-radius: 2px;
   }
+
 }
 
 @media only screen and (max-width: 650px) {
 
   .intro-card{
-    display: flex;
-    padding: 0;
     margin: 0 auto;
     flex-direction: column;
-    background:white;
     width: 400px;
-    border-radius: 3px;
   }
   
   .intro-heading {
-    margin: auto 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 10px;
   }
   
   .intro-title {
     font-weight: 500;
     font-size: 50px;
     font-family: sans-serif;
+    text-align: center;
     color:#000;
     margin: 0;
     padding: 0;
@@ -121,16 +158,9 @@
 @media only screen and (max-width: 450px) {
 
   .intro-card{
-    display: flex;
     flex-direction: column;
-    padding: 0;
-    background:white;
-    width: 325px;
-    border-radius: 3px;
-  }
-  
-  .intro-heading {
-    margin: auto 40px;
+    background: #EEEEEE;
+    width: 100%;
   }
   
   .intro-title {
@@ -139,8 +169,7 @@
     font-family: sans-serif;
     color:#000;
     margin: 0;
-    padding: 0;
-    
+    padding: 0;    
   }
   
   .intro-subtitle {
@@ -148,11 +177,16 @@
     font-size: 25px;
     margin-top: 10px;
     color:#AAAAAA;
+    margin: 0 auto;
     
   }
   
   .intro-image img {
     width: 100%;
     border-radius: 2px;
+  }
+
+  .resume-btn {
+    margin: 5px;
   }
 }

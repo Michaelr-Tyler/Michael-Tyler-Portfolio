@@ -1,0 +1,174 @@
+.project-container{
+  margin:0;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* border: 3px solid orange; */
+
+}
+
+.project-card{
+  position: relative;
+  margin-bottom: 2rem;
+  background: #EFF1ED;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 47%;
+  border: none;
+  padding:0;
+  box-shadow: #222 -6px -6px 10px;
+}
+
+.project-image {
+  width: 100%; 
+  display: block;
+  border-radius: 3px; 
+  margin: 0;
+  box-shadow:  #222222 0px -1px 5px;
+}
+
+.project-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.project-overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+
+.project-overlay:hover{
+  opacity: 1;
+}
+
+.project-overlay:hover > *{
+  transform: translateY(0px);
+
+}
+
+.project-title {
+  font-weight: bold; 
+}
+
+
+@media only screen and (min-width: 1250px) {
+  
+  .project-title {
+    margin:0;
+    font-size: 3em; 
+  }
+  .project-description{
+    font-size: 1em;
+    margin-top: .25em;
+  }
+
+}
+
+@media only screen and (max-width: 1250px) {
+
+  .project-title {
+    font-size: 2.5rem;
+  }
+
+  .project-description{
+    font-size: .8em;
+    margin-top: .25em;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  
+  .project-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    opacity: .75;
+
+  }
+
+  .project-card{
+    flex-basis: 100%;
+  }
+  .project-title {
+    margin:0;
+    font-size: 4em; 
+  }
+  .project-description{
+    font-size: 1.33em;
+    margin-top: .25em;
+  }
+
+} 
+
+@media only screen and (max-width: 650px) {
+
+
+  .project-card{
+    flex-basis: 100%;
+  }
+  .project-title {
+    margin:0;
+    font-size: 2em; 
+  }
+  .project-description{
+    font-size: 1em;
+    margin-top: .25em;
+  }
+
+
+} 
+
+@media only screen and (max-width: 475px) {
+  .project-card{
+    flex-basis: 100%;
+  }
+  .project-title {
+    margin:0;
+    font-size: 2em; 
+  }
+  .project-description{
+    font-size: .75em;
+    margin-top: .25em;
+  }
+
+}
+
+@media only screen and (max-width: 475px) {
+  .project-card{
+    flex-basis: 100%;
+  }
+  .project-title {
+    margin:0;
+    font-size: 2em; 
+  }
+  .project-description{
+    font-size: .75em;
+    margin-top: .25em;
+  }
+
+}
