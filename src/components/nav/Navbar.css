@@ -5,17 +5,23 @@
   background-image: linear-gradient(to right,#071013, #1C1F22);
   color: white;
   border-radius: 5px;
+  /* border: 3px solid yellow; */
+
 }
 
 .nav-title {
   font-size: 1.5rem;
   padding: .5rem;
   margin: .5rem;
+  /* border: 3px solid white; */
+
 }
 
 .nav-title a {
   text-decoration: none;
   color: white;
+  /* border: 3px solid orange; */
+
 }
 
 .nav-title:hover {
@@ -27,10 +33,15 @@
   margin: 0;
   padding: 0;
   display: flex;
+  height: 100%;
+  /* border: 3px solid blue; */
+  margin-bottom: 10px;
 }
 
 .navbar-links li {
   list-style: none;
+  /* border: 3px solid silver; */
+
 }
 
 .navbar-links li a{
@@ -47,7 +58,7 @@
 
 .toggle-button {
   position: absolute;
-  top:.75rem;
+  top:1.5rem;
   right:1rem;
   display: none;
   flex-direction: column;

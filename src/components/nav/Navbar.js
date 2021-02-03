@@ -21,6 +21,7 @@ export const NavBar = () => {
       <span class="bar"></span>
       <span class="bar"></span>
     </Link>
+
     <div className={sideBar ? "navbar-links active" : "navbar-links"}>
       <ul onClick={showSideBar} className="navBar__list">
         <li className="navBar__item">
@@ -31,11 +32,6 @@ export const NavBar = () => {
         <li className="navBar__item">
           <Link to='/projects'>
             Projects
-          </Link>
-        </li>
-        <li className="navBar__item">
-          <Link to='/experience'>
-            Experience
           </Link>
         </li>
         <li className="navBar__item">

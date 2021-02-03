@@ -1,72 +1,103 @@
-.content-card{
+.aboutme-card{
   display: flex;
-  padding: 0;
-  height: 100%;
   background:#EFF1ED;
   border-radius: 3px;
-  margin-top: 50px;
   box-shadow: black -6px 3px 25px 0px;
+  /* border: 5px solid grey; */
 }
 
-.content-title {
+.aboutme-title {
   margin: 0;
   margin-left: 3rem;
+  /* border: 5px solid blue; */
+  font-size: 25pt;
 }
 
-.content-context {
-  margin: 0rem 3rem 2rem 3rem;
+.aboutme-context {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 5px solid orange; */
 }
 
-.content-context p {
+.aboutme-context p {
   color:#777777;
   line-height: 1.75em;
+  /* border: 5px solid yellow; */
+
 }
 
-@media only screen and (min-width: 1000px) {
-  .content-card {
+.aboutme-button {
+  /* border: 5px solid purple; */
+}
+
+/* @media only screen and (max-width: 1000px) {
+  .aboutme-card {
     flex-direction: column;
   }
   
-  .content-title {
+  .aboutme-title {
     font-size: 30pt;
     font-weight: 400;
     padding-top: 20px;
   }
   
-  .content-context p {
+  .aboutme-context p {
     font-size: 20pt;
     font-weight: 300;
   }
 
-}
+} */
 
-@media only screen and (max-width: 1000px) {
-  .content-card{
+@media only screen and (min-width: 1000px) {
+  .aboutme-card{
     flex-direction: column;
+    
   }
-  .content-title {
+  .aboutme-title {
     font-size: 20pt;
     font-weight: 300;
     padding-top: 20px;
   }
+
+  .aboutme-context {
+    margin: 0rem 3rem 2rem 3rem;
+  }
+
   
-  .content-context p {
+  .aboutme-context p {
+    font-size: 15pt;
+    font-weight: 250;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .aboutme-card{
+    flex-direction: column;
+  }
+  .aboutme-title {
+    font-size: 20pt;
+    font-weight: bold;
+    padding-top: 20px;
+  }
+  
+  .aboutme-context p {
     font-size: 15pt;
     font-weight: 250;
   }
 }
 
 @media only screen and (max-width: 650px) {
-  .content-card{
+  .aboutme-card{
     flex-direction: column;
   }
-  .content-title {
+  .aboutme-title {
     font-size: 20pt;
     font-weight: 200;
     padding-top: 20px;
+    border: #777777 3px solid;
   }
   
-  .content-context p {
+  .aboutme-context p {
     font-size: 13pt;
     font-weight: 150;
   }
@@ -74,32 +105,32 @@
 
 @media only screen and (max-width: 525px) {
 
-  .content-card{
+  .aboutme-card{
     flex-direction: column;
   }
-  .content-title {
+  .aboutme-title {
     font-size: 16pt;
     font-weight: 200;
     padding-top: 20px;
   }
   
-  .content-context p {
+  .aboutme-context p {
     font-size: 12pt;
     font-weight: 100;
   }
 }
 
 @media only screen and (max-width: 450px) {
-  .content-card{
+  .aboutme-card{
     flex-direction: column;
   }
-  .content-title {
+  .aboutme-title {
     font-size: 18pt;
     font-weight: 200;
     padding-top: 20px;
   }
   
-  .content-context p {
+  .aboutme-context p {
     font-size: 11pt;
     font-weight: 100;
   }

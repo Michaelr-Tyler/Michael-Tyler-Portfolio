@@ -9,7 +9,7 @@ export const Intro = () => {
   return (
     <Spring
       from={{marginTop:2000}}
-      to={{marginTop:50}}
+      to={{marginTop:0}}
       config={{tension:25, friction:8}}
     >
       {props => (
