@@ -2,7 +2,6 @@ import React from 'react';
 import { Route } from 'react-router-dom';
 import { AboutMe } from './pages/AboutMe';
 import { Contacts } from './pages/Contacts';
-import { Experience } from './pages/Experience';
 import { Intro } from './pages/Intro';
 import { Projects } from '../components/projects/Projects';
 import { Blog } from '../components/blog/Blog';
@@ -15,7 +14,6 @@ export const App = () => {
    <div className="container">
     <Route exact path="/" component={Intro} />
     <Route exact path="/AboutMe" component={AboutMe} />
-    <Route exact path="/experience" component={Experience} />
     <Route exact path="/projects" component={Projects} />
     <Route exact path="/contacts" component={Contacts} />
     <Route exact path="/technologies" component={Technologies} />

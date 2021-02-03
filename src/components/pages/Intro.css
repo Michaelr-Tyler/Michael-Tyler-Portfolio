@@ -1,10 +1,9 @@
 .intro-card {
   display: flex;
+  justify-content: center;
   background:#EEEEEE;
   border-radius: 3px;
-  /* border: 3px solid orange; */
   box-shadow:  #222222 -6px -3px 25px 0px;
-
 }
 
 .intro-heading {
@@ -17,16 +16,15 @@
 
 .intro-title{
   /* border: 3px solid red; */
-  text-shadow: 3px 3px 10px #666;
+  text-shadow: 3px 3px 10px #AAAAAA;
 }
 
 .intro-subtitle{
   /* border: 3px solid yellow; */
-  text-shadow: 4px 4px 10px #AAAAAA;
+  text-shadow: 4px 4px 10px #EEEEEE;
 }
 
 .intro-image img {
-    box-shadow: black -1px -1px 20px;
     /* border: 3px solid grey; */
 }
 
@@ -69,6 +67,7 @@
   .intro-image img {
     height: 600px;
     border-radius: 2px;
+    box-shadow: black -1px -1px 20px;
   }
    
 }
@@ -120,6 +119,8 @@
     margin: 0 auto;
     flex-direction: column;
     width: 400px;
+    overflow: hidden;
+
   }
   
   .intro-heading {
@@ -161,6 +162,8 @@
     flex-direction: column;
     background: #EEEEEE;
     width: 100%;
+    overflow: hidden;
+    margin: 0;
   }
   
   .intro-title {
@@ -184,6 +187,8 @@
   .intro-image img {
     width: 100%;
     border-radius: 2px;
+    display: none;
+
   }
 
   .resume-btn {

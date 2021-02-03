@@ -8,8 +8,10 @@ import './Index.css'
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <NavBar />
-      <App />
+      <div className="main">
+        <NavBar />
+        <App />
+      </div>
     </Router>
   </React.StrictMode>,
   document.querySelector('#root')
