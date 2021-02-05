@@ -1,3 +1,4 @@
+
 .aboutme-card{
   display: flex;
   background:#EFF1ED;
@@ -6,11 +7,32 @@
   /* border: 5px solid grey; */
 }
 
+.aboutme-header{
+  display: flex;
+  /* border: 10px solid blanchedalmond; */
+}
+
+.aboutme-links{
+  /* border: 10px solid rgb(195, 185, 74); */
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.aboutme-link a {
+  font-size: 30pt;
+  color: #000;
+}
+
 .aboutme-title {
   margin: 0;
   margin-left: 3rem;
   /* border: 5px solid blue; */
-  font-size: 25pt;
+  font-size: 35pt;
+  width: 100%;
+
 }
 
 .aboutme-context {
@@ -27,27 +49,6 @@
 
 }
 
-.aboutme-button {
-  /* border: 5px solid purple; */
-}
-
-/* @media only screen and (max-width: 1000px) {
-  .aboutme-card {
-    flex-direction: column;
-  }
-  
-  .aboutme-title {
-    font-size: 30pt;
-    font-weight: 400;
-    padding-top: 20px;
-  }
-  
-  .aboutme-context p {
-    font-size: 20pt;
-    font-weight: 300;
-  }
-
-} */
 
 @media only screen and (min-width: 1000px) {
   .aboutme-card{
@@ -55,19 +56,19 @@
     
   }
   .aboutme-title {
-    font-size: 20pt;
-    font-weight: 300;
+    font-size: 35pt;
+    font-weight: 900;
     padding-top: 20px;
   }
 
-  .aboutme-context {
-    margin: 0rem 3rem 2rem 3rem;
+  .aboutme-context{
+    margin: 0rem 1rem 2rem 3rem;
   }
 
   
   .aboutme-context p {
     font-size: 15pt;
-    font-weight: 250;
+    font-weight: 600;
   }
 }
 @media only screen and (max-width: 1000px) {
@@ -75,14 +76,18 @@
     flex-direction: column;
   }
   .aboutme-title {
-    font-size: 20pt;
-    font-weight: bold;
+    font-size: 30pt;
+    font-weight: 900;
     padding-top: 20px;
   }
   
+  .aboutme-context{
+    margin: 0rem 1rem 2rem 3rem;
+  }
+
   .aboutme-context p {
-    font-size: 15pt;
-    font-weight: 250;
+    font-size: 20pt;
+    font-weight: 600;
   }
 }
 
@@ -91,15 +96,18 @@
     flex-direction: column;
   }
   .aboutme-title {
-    font-size: 20pt;
-    font-weight: 200;
+    font-size: 25pt;
+    font-weight: 900;
     padding-top: 20px;
-    border: #777777 3px solid;
   }
-  
+
+  .aboutme-context{
+    margin: 0rem 1rem 2rem 1rem;
+  }
+
   .aboutme-context p {
-    font-size: 13pt;
-    font-weight: 150;
+    font-size: 15pt;
+    font-weight: 600;
   }
 }
 
@@ -110,13 +118,17 @@
   }
   .aboutme-title {
     font-size: 16pt;
-    font-weight: 200;
+    font-weight: 900;
     padding-top: 20px;
   }
-  
+  .aboutme-context{
+    margin: 0rem 1rem 2rem 3rem;
+  }
+
+
   .aboutme-context p {
     font-size: 12pt;
-    font-weight: 100;
+    font-weight: 600;
   }
 }
 
@@ -126,13 +138,22 @@
   }
   .aboutme-title {
     font-size: 18pt;
-    font-weight: 200;
+    font-weight: 900;
     padding-top: 20px;
+  }
+
+  .aboutme-context{
+    margin: 0rem 1rem 2rem 3rem;
+
   }
   
   .aboutme-context p {
     font-size: 11pt;
-    font-weight: 100;
+    font-weight: 600;
+  }
+
+  .aboutme-links{
+    width: 100%;
   }
 }
 
