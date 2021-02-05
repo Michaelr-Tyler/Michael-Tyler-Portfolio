@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { TiThMenu } from 'react-icons/ti'
 import './Navbar.css'
 
 export const NavBar = () => {
@@ -17,9 +18,7 @@ export const NavBar = () => {
         </Link>
     </div>
     <Link to="#" className='toggle-button' onClick={showSideBar}>
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
+      <TiThMenu />
     </Link>
 
     <div className={sideBar ? "navbar-links active" : "navbar-links"}>
@@ -35,8 +34,8 @@ export const NavBar = () => {
           </Link>
         </li>
         <li className="navBar__item">
-          <Link to='/contacts'>
-            Contact Me
+          <Link to='/technologies'>
+            Technologies
           </Link>
         </li>
         <li className="navBar__item">
