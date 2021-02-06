@@ -7,9 +7,9 @@ import '../tech/Technologies.css'
 export const Technologies = () => {
   return (
       <Spring
-      from={{marginLeft: 2000, marginRight: -2000}}
-      to={{marginLeft: 0, marginRight: 0}}
-      config={{tension:25, friction:8}}>
+      from={{opacity:0}}
+      to={{opacity: 1}}
+      config={{duration:2000}}>
       {props => (
         <div className="tech-container" style={props}>
           {copyTechData.map(t => {
