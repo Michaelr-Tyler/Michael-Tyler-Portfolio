@@ -1,9 +1,10 @@
 .intro-card {
   display: flex;
-  justify-content: center;
+  margin: auto;
   background:#EEEEEE;
   border-radius: 3px;
   box-shadow:  #222222 -6px -3px 25px 0px;
+
 }
 
 .intro-heading {
@@ -38,6 +39,7 @@
   .intro-card{
     justify-content: space-between;
     height: 600px;
+    width: 70%;
   }
   
   .intro-heading {
@@ -77,6 +79,7 @@
     padding: 0;
     justify-content: space-between;
     height: 500px;
+    width: 90%;
   }
   
   .intro-heading {
@@ -114,11 +117,9 @@
 @media only screen and (max-width: 650px) {
 
   .intro-card{
-    margin: 0 auto;
     flex-direction: column;
     width: 400px;
     overflow: hidden;
-
   }
   
   .intro-heading {
@@ -131,7 +132,6 @@
   .intro-title {
     font-weight: 700;
     font-size: 50px;
-    font-family: sans-serif;
     text-align: center;
     color:#000;
     margin: 0;
@@ -150,6 +150,7 @@
   .intro-image img {
     width: 400px;
     border-radius: 2px;
+    /* display: none; */
   }
 
 }
@@ -157,19 +158,17 @@
 @media only screen and (max-width: 450px) {
 
   .intro-card{
-    flex-direction: column;
-    background: #EEEEEE;
-    width: 100%;
-    margin: 0;
+    display: block;
+    width: 90%;
+    justify-content: space-between;
   }
+
   
   .intro-title {
     font-weight: 900;
-    font-size: 50px;
+    font-size: 20pt;
     font-family: sans-serif;
     color:#000;
-    margin: 0;
-    padding: 0;    
   }
   
   .intro-subtitle {
@@ -177,15 +176,12 @@
     font-size: 25px;
     margin-top: 10px;
     color:#AAAAAA;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     
   }
   
   .intro-image img {
     width: 100%;
-    border-radius: 5px;
-    /* display: none; */
-
   }
 
   .resume-btn {

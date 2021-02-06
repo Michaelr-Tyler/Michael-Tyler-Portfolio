@@ -6,7 +6,7 @@
   border-radius: 5px;
   padding: 2rem;
   box-shadow: -6px -6px 25px 0px #222222;
-  
+  width: 100%;
 }
 
 .tech-image {
@@ -24,6 +24,7 @@
   padding: 1rem;
   font-weight: 700;
   font-size: 2rem;
+  margin: auto;
 }
 
 
@@ -87,7 +88,7 @@
 
 @media only screen and (max-width: 550px){
   .tech{
-    flex-basis: 30%;
+    flex-basis: 40%;
     font-weight: 900;
     font-size: 1.25rem;
   }
