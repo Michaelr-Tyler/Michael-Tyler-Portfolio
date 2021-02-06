@@ -101,6 +101,7 @@
     font-size: 25pt;
     font-weight: 900;
     padding-top: 20px;
+    margin-left: 1rem;
   }
 
   .aboutme-context{
@@ -122,15 +123,20 @@
     font-size: 16pt;
     font-weight: 900;
     padding-top: 20px;
+    margin-left: 1rem;
   }
   .aboutme-context{
-    margin: 0rem 1rem 2rem 3rem;
+    margin: 0rem 1rem 2rem 1rem;
   }
 
 
   .aboutme-context p {
     font-size: 12pt;
     font-weight: 600;
+  }
+
+  .aboutme-links{
+    width: 100%;
   }
 }
 
@@ -142,16 +148,17 @@
     font-size: 18pt;
     font-weight: 900;
     padding-top: 20px;
+    margin-left: 1rem;
   }
 
   .aboutme-context{
-    margin: 0rem 1rem 2rem 3rem;
+    margin: 0rem 1rem 2rem 1rem;
 
   }
   
   .aboutme-context p {
-    font-size: 11pt;
-    font-weight: 600;
+    font-size: 12pt;
+    font-weight: 700;
   }
 
   .aboutme-links{
