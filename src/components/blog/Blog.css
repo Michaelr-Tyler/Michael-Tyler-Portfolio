@@ -1,0 +1,144 @@
+.blogPage-container{
+  /* border: 3px solid red; */
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.blogPage-header{
+  width:30%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background: white;
+  border-radius: 50px;
+  margin: 0 auto 1rem auto;
+  padding: 0;
+}
+
+.blogPage-title {
+  font-size: 50pt;
+  font-weight: 900;
+}
+
+.blogPage-subtitle{
+  font-size: 20pt;
+  font-weight: 700;
+}
+
+.blogs-container{
+  display: flex;
+  /* position: fixed; */
+  flex-wrap: wrap;
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
+  /* border: 4px solid blue; */
+  justify-content: space-evenly;
+  padding: 0;
+}
+
+.blog-container {  
+  position: relative;
+  height: 65%;
+  flex-basis: 33%;
+  /* border: 4px solid orange; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog{
+  position: absolute;
+  width: 85%;
+  height: 80%;
+  border-radius: 20px;
+  box-shadow: -3px -3px 20px #000;
+  transition: width 1.5s, box-shadow 1.25s;
+  /* border: 4px solid purple; */
+}
+
+.blog:hover{
+  width: 90%;
+  box-shadow: -6px -6px 20px #000;
+}
+
+.blog-title {
+  position: absolute;
+  right:1rem;
+  top:1rem;
+  background: rgb(22, 20, 20, .5);
+  font-weight: 700;
+  font-size: 25pt;
+  color: white;
+  padding: .25rem;
+  border-radius: 10px;
+}
+
+.blog img{
+  width: 100%;
+  border-radius: 20px
+}
+
+@media only screen and (max-width: 450px) {
+  .blogPage-container{
+    /* border: 3px solid red; */
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .blogPage-header{
+    width:80%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: white;
+    border-radius: 50px;
+    margin: 0 auto 1rem auto;
+    padding: 0;
+  }
+  
+  .blogPage-title {
+    font-size: 50pt;
+    font-weight: 900;
+  }
+  
+  .blogPage-subtitle{
+    font-size: 20pt;
+    font-weight: 700;
+  }
+
+  .blogs-container{
+    overflow: scroll;
+  }
+  .blog-container{
+    /* position: fixed; */
+    flex-basis: 80%;
+    width: 100%;
+    height: 44.5%;
+    margin: 1rem 0;
+    /* border: 4px solid orange; */
+    display: block;
+  }
+
+  .blog{
+    width: 100%;
+    height: 100%;
+    /* border: 4px solid purple; */
+  }
+
+  .blog:hover {
+    width: 100%;
+  }
+
+  .blog-title{
+    position: absolute;
+  }
+} 
