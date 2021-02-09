@@ -21,74 +21,92 @@ const techData = [
   {
     id:1,
     tech: 'HTML5',
-    image: html5
+    image: html5,
+    alt: 'HTML5 Logo'
   }, {
     id:2,
     tech: 'CSS3',
-    image: css3
+    image: css3,
+    alt: 'CSS3 Logo'
   }, {
     id:3,
     tech: 'Javascript',
+    alt: 'Javascript Logo',
     image: javascript
   }, {
     id:4,
     tech: 'React',
+    alt: 'React Logo',
     image: react
   }, {
     id:5,
     tech: 'Python',
+    alt: 'Python Logo',
     image: python
   }, {
     id:6,
     tech: 'Django',
+    alt: 'Django Logo',
     image: django
   }, {
     id:7,
     tech: 'Json',
+    alt: 'Json Logo',
     image: json
   }, {
     id:8,
     tech: 'Mysql',
+    alt: 'Mysql Logo',
     image: mysql
   }, {
     id:9,
     tech: 'Jest',
+    alt: 'Jest Logo',
     image: jest
   }, {
     id:10,
     tech: 'NPM',
+    alt: 'NPM Logo',
     image: npm
   }, {
     id:11,
     tech: 'Git',
+    alt: 'Git Logo',
     image: git
   }, {
     id:12,
     tech: 'Github',
+    alt: 'Github Logo',
     image: github
   }, {
     id:13,
     tech: 'Postman',
+    alt: 'Postman Logo',
     image: postman
   }, {
     id:14,
     tech: 'DBdiagram',
+    alt: 'DBdiagram Logo',
     image: dbdiagram
   }, {
     id:15,
     tech: 'Visual Studios Code',
+    alt: 'Visual Studios Code Logo',
     image: vsc
   }, {
     id:16,
     tech: 'Slack',
+    alt: 'Slack Logo',
     image: slack
   }, {
     id:17,
     tech: 'Zoom',
+    alt: 'Zoom Logo',
     image: zoom
   }, {
     id:18,
     tech: 'Bootstrap',
+    alt: 'Bootstrap Logo',
     image: bootstrap
   }
 ]

@@ -20,8 +20,8 @@ export const AboutMe = () => {
               <div className="aboutme-header">
                 <h1 className="aboutme-title">About Me</h1>
                 <div className="aboutme-links">
-                  <div className="aboutme-link"><a href="https://github.com/Michaelr-Tyler" target="_blank"><AiFillGithub /></a></div>
-                  <div className="aboutme-link"><a href="https://www.linkedin.com/in/michaelr-tyler/" target="_blank"><AiFillLinkedin /></a></div>
+                  <div className="aboutme-link"><a href="https://github.com/Michaelr-Tyler" rel="noreferrer" target="_blank"><AiFillGithub /></a></div>
+                  <div className="aboutme-link"><a href="https://www.linkedin.com/in/michaelr-tyler/" rel="noreferrer" target="_blank"><AiFillLinkedin /></a></div>
                   <div className="aboutme-link"><a href="mailto:this.michael.tyler@gmail.com"><AiOutlineMail /></a></div>
                 </div>
               </div>
