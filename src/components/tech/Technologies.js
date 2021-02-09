@@ -15,7 +15,7 @@ export const Technologies = () => {
           {copyTechData.map(t => {
             return (
               <div key={t.id} className="tech">
-                <img className="tech-image" src={t.image} />
+                <img className="tech-image" alt={t.alt} src={t.image} />
                 <div className="tech-tip">{t.tech}</div>
               </div>
                 

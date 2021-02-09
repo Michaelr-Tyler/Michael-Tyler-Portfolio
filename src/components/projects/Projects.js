@@ -1,7 +1,6 @@
-import React, { useImperativeHandle } from 'react';
+import React from 'react';
 import { Spring } from 'react-spring/renderprops';
 import {copyProjectData} from './ProjectDataProvider';
-import { AiFillGithub, AiOutlineLink } from 'react-icons/ai'
 import './Projects.css';
 
 
@@ -28,7 +27,7 @@ export const Projects = () => {
               }
               return (
                   <div className="project-card" key={p.id}>
-                      <img className="project-image" src={p.image} />
+                      <img className="project-image" alt={p.alt} src={p.image} />
                     <a href={handleLink()} rel="noreferrer" target="_blank">
                       <div className="project-overlay">
                         <h1 className="project-title">{p.title}</h1>

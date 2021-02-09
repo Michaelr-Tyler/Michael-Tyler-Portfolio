@@ -4,7 +4,7 @@
   background:#EEEEEE;
   border-radius: 3px;
   box-shadow:  #222222 -6px -3px 25px 0px;
-
+  max-width: 1200px;
 }
 
 .intro-heading {

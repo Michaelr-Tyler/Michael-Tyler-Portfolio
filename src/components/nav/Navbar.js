@@ -38,11 +38,11 @@ export const NavBar = () => {
             Technologies
           </Link>
         </li>
-        {/* <li className="navBar__item">
+        <li className="navBar__item">
           <Link to='/blog'>
             Blog
           </Link>
-        </li> */}
+        </li>
       </ul>
     </div>
   </nav>
