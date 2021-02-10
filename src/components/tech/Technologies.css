@@ -1,4 +1,4 @@
-.tech-container {
+ .tech-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -8,58 +8,26 @@
   box-shadow: -6px -6px 25px 0px #222222;
   width: 90%;
   margin: auto;
+  margin-bottom: 2rem;
+}
+
+.tech{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: auto;
 }
 
 .tech-image {
   width: 100%;
-  display: block;
-}
-
-.tech{
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
-  font-weight: 700;
-  font-size: 2rem;
-  margin: auto;
-}
-
-
-.tech-tip{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
-  opacity: 0;
-  transition: opacity .75s;
-  border-radius: 10px;
-  
-}
-  
-.tech-tip:hover{
-  opacity: 1;
-  padding: 1rem;
 }
 
 
 @media only screen and (min-width: 1250px){
-
   .tech{
-    /* border: 2px solid aqua; */
     flex-basis: 15%;
   }
-
 }
 
 @media only screen and (max-width: 1250px){
@@ -70,17 +38,11 @@
 
 @media only screen and (max-width: 1000px){
   .tech{
-    flex-basis: 15%;
-  }
-}
-
-@media only screen and (max-width: 800px){
-  .tech{
     flex-basis: 20%;
   }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 700px){
   .tech{
     flex-basis: 25%;
   }
@@ -89,7 +51,6 @@
 @media only screen and (max-width: 550px){
   .tech{
     flex-basis: 40%;
-    font-weight: 900;
-    font-size: 1.25rem;
   }
 }
+

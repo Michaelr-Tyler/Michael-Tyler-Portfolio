@@ -22,7 +22,7 @@ export const Intro = () => {
                 </div>
               </div>
               <div className="intro-image">
-                <img src={meMain} alt="Portfolio of Michael Tyler" />
+                <img src={meMain} alt={"Portfolio of Michael Tyler"} />
               </div>
           </div>
         </div>

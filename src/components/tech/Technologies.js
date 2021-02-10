@@ -16,7 +16,6 @@ export const Technologies = () => {
             return (
               <div key={t.id} className="tech">
                 <img className="tech-image" alt={t.alt} src={t.image} />
-                <div className="tech-tip">{t.tech}</div>
               </div>
                 
             )
